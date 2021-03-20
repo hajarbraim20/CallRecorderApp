@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_for_layouts"
+    style="@style/StyleAppToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_57sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout_layouts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/_10sdp">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:src="@drawable/img_bak"
+            android:tint="@color/img_toolbar"
+            android:padding="@dimen/_1sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/img_phone" />
+
+        <ImageView
+            android:id="@+id/img_settings"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/img_settings"
+            android:tint="@color/img_toolbar"
+            android:padding="@dimen/_3sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/img_play" />
+
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/img_search"
+            android:tint="@color/img_toolbar"
+            android:padding="@dimen/_3sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/img_settings"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:contentDescription="@string/img_phone" />
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_compat_calls"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_17sdp"
+            android:layout_marginStart="@dimen/_17sdp"
+            android:thumb="@drawable/thumb_layout"
+            app:track="@drawable/track_selector"
+            android:checked="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/title_toolbar"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/title_toolbar"
+            style="@style/StyleToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="@dimen/_10sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_back"
+            tools:ignore="RtlSymmetry" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/_14sdp"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/card_search_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_search_view"
+            android:layout_marginEnd="@dimen/_14sdp"
+            app:defaultQueryHint="@string/txt_search"
+            app:iconifiedByDefault="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/img_close"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:queryHint="@string/txt_search" />
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/img_close"
+            android:tint="@color/img_toolbar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/img_phone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.Toolbar>

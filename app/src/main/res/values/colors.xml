@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0B400C</color>
+    <color name="color_favourite_item">#FF147E</color>
+    <color name="colorPrimaryDark">#073209</color>
+    <color name="colorAccent">@color/gray</color>
+    <color name="green_dark_to_dark">@color/colorPrimaryDark</color>
+    <color name="green_dark_to_white">#073209</color>
+    <color name="white_to_dark_theme">#FFFFFF</color>
+    <color name="green_light_to_dark">@color/colorPrimary</color>
+    <color name="green_light_to_green">@color/colorPrimary</color>
+    <color name="green_c">#0B400C</color>
+    <color name="green_to_white">#073209</color>
+    <color name="white">#F8FFFFFF</color>
+    <color name="black">#F5000000</color>
+    <color name="track_switch_setting">#ffffff</color>
+    <color name="dark_green">@color/colorPrimaryDark</color>
+    <color name="light_green">@color/colorPrimary</color>
+    <color name="green_very_light">@color/colorPrimary</color>
+    <color name="gray">#B8B0B0</color>
+    <color name="green_light">#EDFFED</color>
+    <color name="blue">#14299E</color>
+    <color name="very_dark_green">@color/colorPrimaryDark</color>
+    <color name="red">#D50000</color>
+    <color name="light_blue">#0500FFFF</color>
+    <color name="tab_layout_color_toolbar">@color/colorPrimary</color>
+    <color name="title_tab">#F8FFFFFF</color>
+    <color name="title_toolbar">#F8FFFFFF</color>
+    <color name="card_day">#EDFFED</color>
+    <color name="day">@color/colorPrimaryDark</color>
+    <color name="view_pager">#F8FFFFFF</color>
+    <color name="txt_no_call">@color/colorPrimaryDark</color>
+    <color name="bg_card_item">@color/colorPrimary</color>
+    <color name="bg_item_adapter">#F8FFFFFF</color>
+    <color name="color_items">@color/colorPrimaryDark</color>
+    <color name="int_phone">#F5000000</color>
+    <color name="int_menu">@color/colorPrimaryDark</color>
+    <color name="color_favourite">#097E39</color>
+    <color name="color_bg_dialogue">#F8FFFFFF</color>
+    <color name="color_title_dialogue">@color/colorPrimaryDark</color>
+    <color name="color_bg_dialogue_one">#F8FFFFFF</color>
+    <color name="color_title_dialogue_one">@color/colorPrimaryDark</color>
+    <color name="color_item_alert">#F5000000</color>
+    <color name="bg_call">#F8FFFFFF</color>
+    <color name="bg_txt_call">#000000</color>
+    <color name="dialogue_title">@color/colorPrimaryDark</color>
+    <color name="dark_green_">@color/colorPrimaryDark</color>
+    <color name="light_green_">@color/colorPrimary</color>
+    <color name="green_">@color/colorPrimaryDark</color>
+    <color name="dark_theme">#1B1A1A</color>
+    <color name="img_toolbar">#F8FFFFFF</color>
+    <color name="switch_color">@color/colorPrimary</color>
+    <color name="black_to_very_green">#F5000000</color>
+    <color name="black_to_white">#F5000000</color>
+    <color name="dialogue_message">#F5000000</color>
+    <color name="splash">@color/colorPrimaryDark</color>
+    <color name="move_to_boni">#35C36F</color>
+    <color name="green_to_orange">#042B14</color>
+    <color name="green_to_orange_thumb">#042B14</color>
+    <color name="seekbar_white">#EDFFED</color>
+    <color name="move_to_orange">#35C36F</color>
+
+
+
+</resources>

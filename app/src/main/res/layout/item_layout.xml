@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_2sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrain_layout_adapter_items"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_57sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_6sdp"
+        android:background="@drawable/card_items"
+        android:baselineAligned="false">
+
+
+
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_width="@dimen/_41sdp"
+            android:layout_height="@dimen/_41sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/img_user"
+            android:contentDescription="@string/img_user"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_9sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/int_date_item"
+            app:layout_constraintStart_toEndOf="@id/img_user"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/txt_number_phone_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:text="@string/txt_number_phone"
+                android:textColor="@color/color_items"
+                android:textSize="@dimen/_15ssp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/int_number_phone_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/int_number_phone"
+                android:textColor="@color/int_phone"
+                android:textStyle="bold"
+                android:textSize="@dimen/_9ssp"
+                app:layout_constraintStart_toEndOf="@id/img_favourite_item"
+                app:layout_constraintTop_toBottomOf="@id/txt_number_phone_item" />
+
+
+            <ImageView
+                android:id="@+id/img_favourite_item"
+                android:layout_width="@dimen/_11sdp"
+                android:tint="@color/green_very_light"
+                android:layout_height="@dimen/_11sdp"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:contentDescription="@string/img_favourite"
+                android:src="@drawable/img_favourite"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/img_type_of_call_item"
+                app:layout_constraintTop_toBottomOf="@id/txt_number_phone_item" />
+
+            <ImageView
+                android:id="@+id/img_type_of_call_item"
+                android:layout_width="@dimen/_11sdp"
+                android:layout_height="@dimen/_11sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:tint="@color/red"
+                android:contentDescription="@string/txt_incoming"
+                android:src="@drawable/img_inoming"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_number_phone_item" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/int_date_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:text="@string/_04_00_pm_n_00_03_30"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/int_phone"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/img_menu_item"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/img_menu_item"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_menu"
+                android:tint="@color/int_menu"
+                android:contentDescription="@string/img_menu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

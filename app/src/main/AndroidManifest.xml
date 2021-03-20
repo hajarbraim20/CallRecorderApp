@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rec.calls">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+    android:name="com.rec.calls.RecoderApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:ignore="GoogleAppIndexingWarning,HardcodedDebugMode"
+        android:theme="@style/AppTheme"
+       >
+        <activity
+            android:name="com.rec.calls.activity.LayoutSplash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.rec.calls.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.rec.calls.activity.LayoutCall"
+            android:label="@string/txt_call"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name="com.rec.calls.activity.LayoutSettings"
+            android:label="@string/txt_setting_pref"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+
+        <receiver
+            android:name="com.rec.calls.receivers.ActionShutdownReceiver"
+            android:description="@string/txt_additional_receiver"
+            android:label="@string/txt_receiver">
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+
+        </receiver>
+
+        <receiver
+            android:name="com.rec.calls.receivers.BootCompletedReceiver"
+            android:description="@string/txt_additional_receiver"
+            android:label="@string/txt_receiver">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+            </intent-filter>
+
+        </receiver>
+
+        <service
+            android:name="com.rec.calls.services.MainService"
+            android:description="@string/txt_additional_service"
+            android:label="@string/txt_service" />
+
+        <service
+            android:name="com.rec.calls.services.CallRecorderService"
+            android:description="@string/txt_additional_service"
+            android:label="@string/txt_service" />
+
+
+    </application>
+
+</manifest>

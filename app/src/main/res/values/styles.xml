@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="DarkAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="DarkAppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="StyleAppToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:background">@color/tab_layout_color_toolbar</item>
+
+    </style>
+    <style name="StyleToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/_17ssp</item>
+        <item name="android:textColor">@color/title_toolbar</item>
+    </style>
+
+    <style name="StyleTabTitle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/title_tab</item>
+
+    </style>
+
+    <style name="StyleAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/dialogue_title</item>
+        <item name="android:background">@color/color_bg_dialogue</item>
+        <item name="android:textColorPrimary">@color/dialogue_message</item>
+        <item name="colorAccent">@color/green_light_to_green</item>
+
+
+    </style>
+
+    <style name="StyleDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/color_title_dialogue_one</item>
+        <item name="android:background">@color/color_bg_dialogue_one</item>
+        <item name="textColorAlertDialogListItem">@color/black_to_very_green</item>
+
+    </style>
+
+
+</resources>

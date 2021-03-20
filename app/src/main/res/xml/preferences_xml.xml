@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <com.rec.calls.lib_layout.PreferenceList
+        app:entries="@array/output_location_entries_arrays"
+        app:entryValues="@array/output_location_entry_values_arrays"
+        app:defaultValue="app_external"
+        app:key="output_location_key"
+        app:title="@string/txt_record_output_location_pref_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <com.rec.calls.lib_layout.PreferenceSwitchCompat
+        app:key="vibrate_key"
+        app:defaultValue="true"
+        app:title="@string/txt_vibrate_pref_title"
+        app:summary="@string/txt_subject_vibrate_pref_summ"
+        app:singleLineTitle="true" />
+
+    <com.rec.calls.lib_layout.PreferenceSwitchCompat
+        app:key="turn_speaker_key"
+        app:defaultValue="false"
+        app:title="@string/txt_turn_on_speaker_pref_title"
+        app:summary="@string/txt_subject_turn_on_speaker_pref_summ"
+        app:singleLineTitle="true" />
+
+    <com.rec.calls.lib_layout.PreferenceSwitchCompat
+        app:key="max_volume_key"
+        app:defaultValue="true"
+        app:title="@string/txt_max_volume_pref_title"
+        app:summary="@string/txt_subject_max_volume_pref_summ"
+        app:singleLineTitle="true" />
+
+
+
+<com.rec.calls.lib_layout.PreferenceList
+        app:entries="@array/pref_audio_source_entries_arrays"
+        app:entryValues="@array/pref_audio_source_entry_values_arrays"
+        app:defaultValue="4"
+        app:key="audio_source_key"
+        app:title="@string/txt_pref_audio_source_pref_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <com.rec.calls.lib_layout.PreferenceList
+        app:entries="@array/pref_output_format_entries_arrays"
+        app:entryValues="@array/pref_output_format_entry_values_arrays"
+        app:defaultValue="2"
+        app:key="output_format_key"
+        app:title="@string/txt_pref_output_format_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <com.rec.calls.lib_layout.PreferenceList
+        app:entries="@array/pref_audio_encoder_entries_arrays"
+        app:entryValues="@array/pref_audio_encoder_entries_values_arrays"
+        app:defaultValue="3"
+        app:key="audio_encoder_key"
+        app:title="@string/txt_pref_audio_encoder_title"
+        app:useSimpleSummaryProvider="true" />
+
+
+
+
+</androidx.preference.PreferenceScreen>
