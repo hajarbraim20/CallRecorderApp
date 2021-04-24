@@ -1,212 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="ANALYZE_TEST_SOURCES" value="false" />
-    <option name="SCOPE_TYPE" value="4" />
-  </component>
-  <component name="AndroidLayouts">
-    <shared>
-      <config>
-        <device id="pixel" />
-        <target>android-21</target>
-      </config>
-    </shared>
-  </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf2be294-3140-4593-bf3f-d9e457072fb3" name="Default Changelist" comment="" />
+    <list default="true" id="ccc29556-969a-4871-995e-3ef9ff8967d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Recorder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Recorder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_preference_preference_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_preference_preference_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getkeepsafe_relinker_relinker_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getkeepsafe_relinker_relinker_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_library_6_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_library_6_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Recorder.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Recorder.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/appcompat/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/cardview/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/constraintlayout/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/legacy/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/lifecycle/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/multidex/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/preference/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/recyclerview/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/test/espresso/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/test/ext/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/material/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_29]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="resourceFile" />
-        <option value="valueResourceFile" />
-      </list>
-    </option>
-  </component>
-  <component name="GenerateSignedApkSettings">
-    <option name="EXPORT_PRIVATE_KEY" value="false" />
-    <option name="KEY_STORE_PATH" value="C:\ProjectApps\Key_apps" />
-    <option name="KEY_ALIAS" value="key_rec" />
-    <option name="REMEMBER_PASSWORDS" value="true" />
-    <option name="BUILD_TARGET_KEY" value="apk" />
-  </component>
-  <component name="ProjectId" id="1c8CoKHBt1WeDgfICHX59c9RYxm" />
+  <component name="ProjectId" id="1q1RvU6G8ZXoO7UpqSbGv4sDc6D" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
-    <option name="foldersAlwaysOnTop" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="AnalyzeApkAction.lastApkPath" value="$USER_HOME$/Downloads/CallRecorder(ver_1).apk" />
-    <property name="ApkExportedModule" value="Recorder.app" />
-    <property name="BundleExportedModule" value="app" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.62.101:5555" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-18T19:27:31.595Z" />
-    <property name="ExportApk.ApkPath" value="C:\Users\jamaa\Desktop\Recorder\app" />
-    <property name="ExportApk.BuildVariants" value="release" />
-    <property name="ExportApk.SignV1" value="true" />
-    <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="ScreenshotViewer.SavePath" value="$PROJECT_DIR$" />
-    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="Pixel_2_XL_API_24&#10;Pixel_3_XL_API_23&#10;Pixel_3a_API_22&#10;Pixel_3a_XL_API_21&#10;Pixel_API_25" />
-    <property name="algorithm" value="Scalr" />
-    <property name="android-custom-viewC:/Users/jamaa/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_SELECTED" value="ViewPager" />
-    <property name="android-custom-viewC:/Users/jamaa/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.1.0/7ba5bcd622e3d6d7ab6b9833717c4385e4ba0a51/material-1.1.0-sources.jar!/com/google/android/material/tabs/TabLayout.java_SELECTED" value="TabLayout" />
-    <property name="android-custom-viewC:/Users/jamaa/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/black_fbird/recoder/custom_ui/BlurLayout.java_SELECTED" value="BlurLayout" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/black_fbird/recoder/custom_ui/RoundedImageView.java_SELECTED" value="RoundedImageView" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/black_fbird/recoder/custom_ui/Sushi.java_SELECTED" value="Sushi" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/BlurLayout.java_SELECTED" value="BlurLayout" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/ImageViewCircle.java_SELECTED" value="ImageViewCircle" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/LibSu.java_SELECTED" value="LibSu" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/RoundedImageView.java_SELECTED" value="RoundedImageView" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/Slidr.java_SELECTED" value="Slidr" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/Sushi.java_SELECTED" value="Sushi" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/BlurLayout.java_SELECTED" value="BlurLayout" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/ImageViewCircle.java_SELECTED" value="ImageViewCircle" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/LibLayout.java_SELECTED" value="LibLayout" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/LibSli.java_SELECTED" value="LibSli" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/RoundedImageView.java_SELECTED" value="RoundedImageView" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/Slidr.java_SELECTED" value="Slidr" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib_layout/ImageViewCircle.java_SELECTED" value="ImageViewCircle" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib_layout/LibLayouts.java_SELECTED" value="LibLayouts" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib_layout/LibSli.java_SELECTED" value="LibSli" />
-    <property name="android-custom-viewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib_layout/LibSu.java_SELECTED" value="LibSu" />
-    <property name="android.project.structure.last.selected" value="SDK Location" />
-    <property name="android.project.structure.proportion" value="0.15" />
-    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="destination" value="DRAWABLE" />
-    <property name="format" value="PNG" />
-    <property name="lastFolderRoot" value="$PROJECT_DIR$/../../../../Hajar/ic_stat_name.png" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="method" value="Automatic" />
-    <property name="multi-representation-previewC:/Users/jamaa/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.1.0/7ba5bcd622e3d6d7ab6b9833717c4385e4ba0a51/material-1.1.0-sources.jar!/com/google/android/material/tabs/TabLayout.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/black_fbird/recoder/custom_ui/BlurLayout.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/black_fbird/recoder/custom_ui/RoundedImageView.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/black_fbird/recoder/custom_ui/Sushi.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/BlurLayout.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/ImageViewCircle.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/LibSu.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/RoundedImageView.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/Slidr.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/custom_ui/Sushi.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/BlurLayout.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/ImageViewCircle.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/LibLayout.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/LibSli.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/RoundedImageView.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib/Slidr.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib_layout/ImageViewCircle.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib_layout/LibLayouts.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib_layout/LibSli.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/jamaa/Desktop/Recorder/app/src/main/java/com/rec/calls/lib_layout/LibSu.java_selected" value="Custom views" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.12706481" />
-    <property name="resolutions" value="XXHDPI&#10;XXXHDPI&#10;HDPI&#10;MDPI&#10;XHDPI" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="sourceResolution" value="XXXHDPI" />
   </component>
-  <component name="PsdUISettings">
-    <option name="MODULE_TAB" value="Properties" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jamaa\Desktop\Recorder\app\src\main\res\drawable" />
-      <recent name="C:\Users\jamaa\Desktop\Recorder\app\src\main\res\layout" />
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
-    </key>
-    <key name="android.template.-2126262610">
-      <recent name="com.rec.calls.fragments_for_layouts" />
-      <recent name="com.rec.calls" />
-    </key>
-    <key name="android.template.packageName">
-      <recent name="com.black_fbird.recoder.activities" />
-      <recent name="com.black_fbird.recoder" />
-      <recent name="com.d3vdr0id.recoder.activities" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.d3vdr0id.recoder.adapters" />
-      <recent name="com.d3vdr0id.recoder.models" />
-      <recent name="com.d3vdr0id.recoder.fragments" />
-      <recent name="com.d3vdr0id.recoder.custom_ui" />
-      <recent name="com.d3vdr0id.recoder.envr" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="gradle assembleRelease" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Android App.app">
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -214,7 +118,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="Recorder.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -232,7 +136,7 @@
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
         <option name="SHOW_STATIC_VARS" value="true" />
@@ -271,244 +175,36 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="Recoder.app" />
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="false" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <Java />
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Recorder [assembleRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="assembleRelease" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.Recorder [assembleRelease]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration>$USER_HOME$/.subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cf2be294-3140-4593-bf3f-d9e457072fb3" name="Default Changelist" comment="" />
-      <created>1583828613628</created>
+      <changelist id="ccc29556-969a-4871-995e-3ef9ff8967d7" name="Default Changelist" comment="" />
+      <created>1616245339733</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583828613628</updated>
+      <updated>1616245339733</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="299" y="202" key="#Gradle" timestamp="1615933788626">
+    <state x="397" y="267" key="#Notifications" timestamp="1616246302824">
       <screen x="0" y="40" width="1024" height="728" />
     </state>
-    <state x="299" y="202" key="#Gradle/0.40.1024.728@0.40.1024.728" timestamp="1615933788626" />
-    <state x="138" y="82" key="#Inspections" timestamp="1613933115850">
+    <state x="397" y="267" key="#Notifications/0.40.1024.728@0.40.1024.728" timestamp="1616246302824" />
+    <state x="292" y="159" key="FileChooserDialogImpl" timestamp="1616245550411">
       <screen x="0" y="40" width="1024" height="728" />
     </state>
-    <state x="138" y="82" key="#Inspections/0.40.1024.728@0.40.1024.728" timestamp="1613933115850" />
-    <state x="29" y="150" key="#PSD" timestamp="1616095510205">
+    <state x="292" y="159" key="FileChooserDialogImpl/0.40.1024.728@0.40.1024.728" timestamp="1616245550411" />
+    <state x="13" y="49" key="SettingsEditor" timestamp="1616245556955">
       <screen x="0" y="40" width="1024" height="728" />
     </state>
-    <state x="29" y="150" key="#PSD/0.40.1024.728@0.40.1024.728" timestamp="1616095510205" />
-    <state x="221" y="69" key="#app" timestamp="1615993707733">
+    <state x="13" y="49" key="SettingsEditor/0.40.1024.728@0.40.1024.728" timestamp="1616245556955" />
+    <state x="104" y="137" key="Vcs.Push.Dialog.v2" timestamp="1616245669577">
       <screen x="0" y="40" width="1024" height="728" />
     </state>
-    <state x="221" y="69" key="#app/0.40.1024.728@0.40.1024.728" timestamp="1615993707733" />
-    <state x="0" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613850876017">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="0" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1024.728@0.40.1024.728" timestamp="1613850876017" />
-    <state x="317" y="110" key="#com.intellij.ide.util.MemberChooser" timestamp="1614608320778">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="317" y="110" key="#com.intellij.ide.util.MemberChooser/0.40.1024.728@0.40.1024.728" timestamp="1614608320778" />
-    <state x="295" y="273" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1613846609428">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="295" y="273" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1024.728@0.40.1024.728" timestamp="1613846609428" />
-    <state x="0" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614283026663">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="0" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.1024.728@0.40.1024.728" timestamp="1614283026663" />
-    <state x="242" y="151" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615491650390">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="242" y="151" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1024.728@0.40.1024.728" timestamp="1615491650390" />
-    <state x="100" y="140" width="824" height="528" key="AVDManager" timestamp="1616095329015">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="100" y="140" width="824" height="528" key="AVDManager/0.40.1024.728@0.40.1024.728" timestamp="1616095329015" />
-    <state x="92" y="159" key="AndroidCreateResourceDirectoryDialog" timestamp="1613932834618">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="92" y="159" key="AndroidCreateResourceDirectoryDialog/0.40.1024.728@0.40.1024.728" timestamp="1613932834618" />
-    <state x="184" y="157" key="AndroidCreateResourceFileDialog" timestamp="1615491429325">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="184" y="157" key="AndroidCreateResourceFileDialog/0.40.1024.728@0.40.1024.728" timestamp="1615491429325" />
-    <state x="346" y="189" key="AndroidCreateXmlResourceDialog" timestamp="1615997816337">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="346" y="189" key="AndroidCreateXmlResourceDialog/0.40.1024.728@0.40.1024.728" timestamp="1615997816337" />
-    <state x="292" y="159" key="FileChooserDialogImpl" timestamp="1616004298400">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="292" y="159" key="FileChooserDialogImpl/0.40.1024.728@0.40.1024.728" timestamp="1616004298400" />
-    <state width="980" height="2" key="GridCell.Tab.0.bottom" timestamp="1616097037220">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state width="980" height="2" key="GridCell.Tab.0.bottom/0.40.1024.728@0.40.1024.728" timestamp="1616097037220" />
-    <state width="980" height="2" key="GridCell.Tab.0.center" timestamp="1616097037220">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state width="980" height="2" key="GridCell.Tab.0.center/0.40.1024.728@0.40.1024.728" timestamp="1616097037220" />
-    <state width="980" height="2" key="GridCell.Tab.0.left" timestamp="1616097037220">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state width="980" height="2" key="GridCell.Tab.0.left/0.40.1024.728@0.40.1024.728" timestamp="1616097037220" />
-    <state width="980" height="2" key="GridCell.Tab.0.right" timestamp="1616097037220">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state width="980" height="2" key="GridCell.Tab.0.right/0.40.1024.728@0.40.1024.728" timestamp="1616097037220" />
-    <state x="0" y="40" key="ScreenshotViewer.Dimensions" timestamp="1614368187411">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="0" y="40" key="ScreenshotViewer.Dimensions/0.40.1024.728@0.40.1024.728" timestamp="1614368187411" />
-    <state x="13" y="49" key="SettingsEditor" timestamp="1616244039935">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="13" y="49" key="SettingsEditor/0.40.1024.728@0.40.1024.728" timestamp="1616244039935" />
-    <state x="328" y="182" key="chooseDestDirectoryDialog" timestamp="1613745998527">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="328" y="182" key="chooseDestDirectoryDialog/0.40.1024.728@0.40.1024.728" timestamp="1613745998527" />
-    <state x="214" y="212" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1616095095176">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="214" y="212" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog/0.40.1024.728@0.40.1024.728" timestamp="1616095095176" />
-    <state x="116" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614032378812">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="116" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.40.1024.728@0.40.1024.728" timestamp="1614032378812" />
-    <state x="220" y="247" key="edit.logcat.filter.dialog.dimensions" timestamp="1615940655365">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="220" y="247" key="edit.logcat.filter.dialog.dimensions/0.40.1024.728@0.40.1024.728" timestamp="1615940655365" />
-    <state x="168" y="184" width="672" height="677" key="run.anything.popup" timestamp="1614356981846">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="168" y="184" width="672" height="677" key="run.anything.popup/0.40.1024.728@0.40.1024.728" timestamp="1614356981846" />
-    <state x="175" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1615996322411">
-      <screen x="0" y="40" width="1024" height="728" />
-    </state>
-    <state x="175" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1024.728@0.40.1024.728" timestamp="1615996322411" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="Copyright.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>Android API 23 Platform</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="104" y="137" key="Vcs.Push.Dialog.v2/0.40.1024.728@0.40.1024.728" timestamp="1616245669577" />
   </component>
 </project>
